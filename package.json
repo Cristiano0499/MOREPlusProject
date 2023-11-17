@@ -1,0 +1,19 @@
+{
+  "name": "moreplusproject",
+  "version": "1.0.0",
+  "description": "Certainly! Below is a template for a `README.md` file for your **MORE Plus** project. This file should give an overview of the project, instructions for setting it up, and any other relevant information that developers or users might need.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
+}

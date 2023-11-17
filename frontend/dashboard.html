@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - MORE Plus</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <header>
+        <h1>MORE Plus Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="dashboard-container">
+        <section class="projects">
+            <h2>Your Projects</h2>
+            <!-- List of user's projects will go here -->
+        </section>
+
+        <section class="create-project">
+            <h2>Create a New Project</h2>
+            <form id="createProjectForm">
+                <input type="text" id="projectName" placeholder="Project Name" required>
+                <textarea id="projectDescription" placeholder="Project Description" required></textarea>
+                <input type="text" id="projectType" placeholder="Project Type (Hashtag)" required>
+                
+                <div id="positionsContainer">
+                    <div class="position-entry">
+                        <input type="text" class="position-name" placeholder="Position Name" required>
+                        <select class="position-status">
+                            <option value="available">Available</option>
+                            <option value="taken">Taken</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="button" id="addPosition">Add Position</button>
+                <button type="submit">Create Project</button>
+            </form>
+        </section>        
+
+        <section class="browse-projects">
+            <h2>Browse Available Projects</h2>
+            <!-- List of available projects to join will go here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 MORE Plus. All rights reserved.</p>
+    </footer>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

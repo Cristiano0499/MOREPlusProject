@@ -1,0 +1,76 @@
+/* Homepage Main Banner */
+.main-banner {
+    background-color: #e9ecef;
+    padding: 30px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main-banner h1 {
+    font-size: 2.5em;
+    color: #007bff;
+    margin: 0 0 10px 0;
+}
+
+.main-banner p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Section Styles */
+.section {
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.section-heading {
+    color: #007bff;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.section-content {
+    text-align: center;
+    font-size: 1em;
+    color: #555;
+}
+
+/* Custom Button Style for Homepage */
+.home-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.home-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styling */
+.home-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-banner h1 {
+        font-size: 2em;
+    }
+
+    .main-banner p {
+        font-size: 1em;
+    }
+
+    .section-heading {
+        font-size: 1.5em;
+    }
+}
